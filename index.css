@@ -193,13 +193,14 @@ input[type="submit"]{
 }
 /* 新闻及热搜 */
 #journalism{
-    width: 100%;
+    width: 1040px;
     position: relative;
     margin: 0 auto;
     min-width: 1000px;
+    padding: 14px 24px 0;
 }
 #journalism-main{
-    width: 55%;
+    /* width: 55%; */
     margin: auto;
     word-wrap: break-word;
     word-break: break-all;
@@ -209,7 +210,7 @@ input[type="submit"]{
 }
 #journalism-list{
     width: 65%;
-    height: 300px;
+    /* height: 300px; */
 }
 #journalism-head span{
     margin-top: 4px;
@@ -233,7 +234,8 @@ input[type="submit"]{
     margin:9px 0;
 }
 #journalism-body img{
-    width: 182px;
+    /* width: 182px; */
+    width: 174px;
     height: 120px;
     margin-right: 4px;
 }
@@ -256,15 +258,15 @@ input[type="submit"]{
     display: none;
 }
 #topsearch-list{
-    position: fixed;
+    /* position: fixed; */
     width: 35%;
-    height: 300px;
+    /* height: 300px; */
 }
 .sticky1{
-    /* position: -webkit-sticky;
-    position: sticky !important; */
-    /* top: 0px;
-    right: 431.5px; */
+    position: -webkit-sticky;
+    position: sticky !important;
+    top: 0px;
+    right: 431.5px;
 }
 #topsearch-head{
     width: 100%;
